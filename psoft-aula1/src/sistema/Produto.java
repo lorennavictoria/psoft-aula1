@@ -1,4 +1,6 @@
-public class Produto{
+package sistema;
+
+public class Produto {
 
     private String nome;
     private String fabricante;

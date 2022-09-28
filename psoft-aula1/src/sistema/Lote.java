@@ -1,3 +1,5 @@
+package sistema;
+
 public class Lote{
 
     private int quantidade;
