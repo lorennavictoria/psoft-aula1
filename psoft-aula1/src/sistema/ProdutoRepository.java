@@ -10,7 +10,7 @@ public class ProdutoRepository {
         setProdutos.add(produto);
     }
 
-    public HashSet getProdutos(){
+    public HashSet<Produto> getProdutos(){
         return setProdutos;
     }
 

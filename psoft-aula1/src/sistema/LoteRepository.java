@@ -8,7 +8,7 @@ public class LoteRepository {
         setLotes.add(lote);
     }
 
-    public HashSet getLote(){
+    public HashSet<Lote> getLote(){
         return setLotes;
     }
 
