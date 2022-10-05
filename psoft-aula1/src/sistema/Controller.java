@@ -1,5 +1,3 @@
-package sistema;
-
 public class Controller {
 
     private Service s;
@@ -14,7 +12,7 @@ public class Controller {
     }
 
     public void criaLote(int quantidade, String datav, Produto produto) {
-        s.criaProduto(quantidade, datav, produto);
+        s.criaLote(quantidade, datav, produto);
     }
 
     public String listaProdutos() {

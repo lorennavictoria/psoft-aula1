@@ -1,5 +1,3 @@
-package sistema;
-
 public class Produto {
 
      String nome;

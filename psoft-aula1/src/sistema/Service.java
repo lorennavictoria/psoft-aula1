@@ -29,7 +29,7 @@ public class Service {
 
     public String listaLotes(){
         String listagem = "";
-        for (Lote lote : lr.getLotes()) {
+        for (Lote lote : lr.getLote()) {
             listagem += lote.getQuantidade() + ", " + lote.getProdutos().getNome() + "\n";
         }
         return listagem;

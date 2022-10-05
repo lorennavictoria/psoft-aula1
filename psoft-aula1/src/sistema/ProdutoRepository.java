@@ -1,5 +1,3 @@
-package sistema;
-
 import java.util.HashSet;
 
 public class ProdutoRepository {
