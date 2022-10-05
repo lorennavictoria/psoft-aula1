@@ -1,4 +1,4 @@
-package sistema;
+//package sistema;
 
 public class Lote{
 
@@ -12,4 +12,15 @@ public class Lote{
         this.produto = produto;
     }
     
+    public int getQuantidade(){
+        return this.quantidade;
+    }
+
+    public String getData(){
+        return this.datav;
+    }
+
+    public Produto getProdutos(){
+        return this.produto;
+    }
 }
