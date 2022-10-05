@@ -2,7 +2,7 @@ package sistema;
 
 public class Produto {
 
-    private String nome;
+     String nome;
     private String fabricante;
     private double preco;
 

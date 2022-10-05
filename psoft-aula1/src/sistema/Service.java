@@ -1,8 +1,13 @@
 public class Service {
 
-    private ProdutoRepository pr = new ProdutoRepository();
-    private LoteRepository lr = new LoteRepository();
+    private ProdutoRepository pr;
+    private LoteRepository lr;
     
+    public Service(){
+        this.pr = new ProdutoRepository();
+        this.lr = new LoteRepository();
+    }
+
     public Produto criaProduto(String nome, String fabricante, double preco){
         Produto p = new Produto(nome, fabricante, preco);
         pr.addProduto(p);
