@@ -23,4 +23,5 @@ public class Controller {
         return s.listaLotes();
     }
 
+
 }

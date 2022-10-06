@@ -21,4 +21,5 @@ public class Lote{
     public Produto getProdutos(){
         return this.produto;
     }
+    
 }

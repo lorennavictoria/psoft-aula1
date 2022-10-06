@@ -1,6 +1,6 @@
 public class Produto {
 
-     String nome;
+    private String nome;
     private String fabricante;
     private double preco;
 

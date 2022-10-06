@@ -23,4 +23,5 @@ public class Main {
     public static void listaProdutos(Controller c){
         System.out.println(c.listaProdutos());
     }
+    
 }
